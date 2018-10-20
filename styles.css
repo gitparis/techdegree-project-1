@@ -23,6 +23,10 @@ a:hover {
 
 /* Section Styles */
 
+.stag-img {
+  width: 300px;
+}
+
 .main-nav {
   width: 100%;
   background: black;
@@ -69,12 +73,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .625s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2);
 }
 .tag {
   background-color: #efefef;
